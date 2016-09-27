@@ -13,6 +13,7 @@
 		7B0E62481D93FB26002E07F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B0E62471D93FB26002E07F6 /* Assets.xcassets */; };
 		7B0E624B1D93FB26002E07F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B0E62491D93FB26002E07F6 /* LaunchScreen.storyboard */; };
 		7B0E62561D93FB27002E07F6 /* ContacteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0E62551D93FB27002E07F6 /* ContacteUITests.swift */; };
+		7B165B241D990DD9004CF3BE /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B165B231D990DD9004CF3BE /* Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		7B0E62511D93FB27002E07F6 /* ContacteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContacteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B0E62551D93FB27002E07F6 /* ContacteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContacteUITests.swift; sourceTree = "<group>"; };
 		7B0E62571D93FB27002E07F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B165B231D990DD9004CF3BE /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				7B0E62401D93FB26002E07F6 /* AppDelegate.swift */,
 				7B0E62421D93FB26002E07F6 /* ViewController.swift */,
+				7B165B231D990DD9004CF3BE /* Helper.swift */,
 				7B0E62441D93FB26002E07F6 /* Main.storyboard */,
 				7B0E62471D93FB26002E07F6 /* Assets.xcassets */,
 				7B0E62491D93FB26002E07F6 /* LaunchScreen.storyboard */,
@@ -146,6 +149,7 @@
 				TargetAttributes = {
 					7B0E623C1D93FB26002E07F6 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = LRN4ZGW52H;
 						ProvisioningStyle = Automatic;
 					};
 					7B0E62501D93FB27002E07F6 = {
@@ -201,6 +205,7 @@
 			files = (
 				7B0E62431D93FB26002E07F6 /* ViewController.swift in Sources */,
 				7B0E62411D93FB26002E07F6 /* AppDelegate.swift in Sources */,
+				7B165B241D990DD9004CF3BE /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +342,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LRN4ZGW52H;
 				INFOPLIST_FILE = Contacte/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = buzoianu.Contacte;
@@ -349,6 +355,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LRN4ZGW52H;
 				INFOPLIST_FILE = Contacte/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = buzoianu.Contacte;
@@ -402,6 +409,7 @@
 				7B0E625C1D93FB27002E07F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B0E625D1D93FB27002E07F6 /* Build configuration list for PBXNativeTarget "ContacteUITests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +418,7 @@
 				7B0E625F1D93FB27002E07F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
